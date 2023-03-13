@@ -1,0 +1,87 @@
+Lista 1 - DSM
+Data de entrega: 17/02
+Nome: Felipe Gabriel Vieira
+
+Exercício 1:
+
+inicial = int(input("Insira um número: "))
+soma = int(input("Insira sua soma: "))
+final = inicial + soma
+print (f"Seu resultado é: {inicial} + {soma} = {final}")
+
+Exercício 2:
+
+Metros = int(input("Insira sua medida em metros: "))
+Milímetros = Metros *1000
+print (f"Logo, sua medida é de {Milímetros} mm")
+
+Exercício 3:
+
+dias = int(input("Insira a quantidade de dias: "))
+horas = int(input("Insira a quantidade de horas: "))
+minutos = int(input("Insira a quantidade de minutos: "))
+segundos = int(input("Insira a quantidade de segundos: "))
+tempo = dias * 86400 + horas * 3600 + minutos * 60 + segundos
+print (f"Seu tempo é de {tempo} segundos")
+
+Exercício 4:
+
+print ("Calcule aqui seu aumento salarial!")
+atual = float(input("Insira seu salário atual: "))
+porcentagem = float(input("Insira a porcentagem de aumento que deseja receber: "))
+aumento = atual * porcentagem / 100
+novo = atual + aumento
+print (f"Seu novo salário será de: R${novo:.2f}")
+
+Exercício 5:
+
+print ("Calcule desconto aqui!")
+produto = float(input("Insira o valor original do produto: "))
+desconto = float(input("Insira o desconto do produto: "))
+valor1 = produto * desconto / 100
+valor2 = produto - valor1
+print ("Seu produto sairá por R$:", valor2)
+print ("Com um desconto de R$:", valor1)
+
+Exercício 6:
+
+print ("Descubra o tempo de sua viagem")
+dist = float(input("Insira a distância da viagem: "))
+vel = float(input("Insira a velocidade média por hora da viagem: "))
+tempo = dist / vel
+print (f"Sua viagem irá durar {tempo:.1f} horas.")
+
+Exercício 7:
+
+print ("Calcule temperaturas em Fahrenheit")
+T = float(input("Insira a temperatura em Celsius: "))
+T1 = T * 9/5
+print (f"A temperatura registra {T1+32:.2f}°F")
+
+Exercício 8:
+
+print ("Converta temperaturas em Celsius")
+T = int(input("Insira a temperatura em Fahrenheit: "))
+T1 = T-32
+T = T1 * 5/9
+print (f"A temperatura corresponde a:{T:.2f}°C")
+
+Exercício 9:
+
+Km = float(input("Insira a distância percorrida em Km: "))
+Dia = float(input("Insira a quantidade de dias: "))
+Km1 = Km * 15/100
+Dia1 = Dia * 60
+Valor = Km1 + Dia1
+print (f"Seu valor a pagar é de R$:{Valor:.2f}")
+
+Exercício 10:
+
+Cigarros = int(input("Quantos cigarros você fuma por dia? "))
+Tempo = int(input("Por quantos anos você fuma? "))
+Totalcigarros = Tempo*365*Cigarros
+Totaltempo = Totalcigarros/144
+print (f"Ao decorrer de {Tempo} ano(s), você já perdeu {Totaltempo:.0f} dias de vida")
+
+Exercício 11:
+print (len(str(2**1000000)))

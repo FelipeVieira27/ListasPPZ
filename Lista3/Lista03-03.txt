@@ -1,0 +1,62 @@
+Lista 3 - DSM
+Data de entrega: 03/03
+Nome: Felipe Gabriel Vieira
+
+Exercício 1:
+nota = float(input("Insira sua nota entre 0 e 10: "))
+
+while nota < 0 or nota > 10:
+  print ("Insira novamente a nota: ")
+  nota = float(input("Insira sua nota entre 0 e 10: "))
+
+if nota >= 7 and nota <= 10:
+    print ("Parabéns, você foi aprovado!")
+if nota >= 0 and nota < 7:
+    print ("Você não foi aprovado :(")
+
+Exercício 2:
+nome = input("Insira o seu usuário: ")
+senha = input("Insira sua senha: ")
+
+while nome == senha:
+    print("Erro, seu usuário não pode ser igual a sua senha")
+    nome = input("Insira o seu usuário: ")
+    senha = input("Insira sua senha: ")
+
+print("Você se cadastrou com sucesso!")
+
+Exercício 3:
+ano = 0
+PaisA = 80000
+PaisB = 200000
+
+while PaisA < PaisB:
+    ano = ano + 1
+    print(f"Ano: {ano + 1}")
+    PaisA = PaisA * 1.03
+    print(f"País A: {PaisA:.0f}")
+    PaisB = PaisB * 1.015
+    print(f"País B: {PaisB:.0f}")
+
+print("Foram necessários", ano + 1, "anos para o País A ultrapassar o País B")
+
+Exercício 4:
+numero = int(input("Insira um valor: "))
+
+a, b = 1, 1
+inicio = 1
+
+while inicio <= numero-2:
+    a, b = b, a + b
+    inicio = inicio + 1
+
+print ("O correspondente deste valor é", b)
+
+Exercício 5:
+valor1 = int(input("Insira o primeiro número: "))
+valor2 = int(input("Insira o segundo número: "))
+
+while valor1 % valor2 > 0:
+    valor1, valor2 = valor2, valor1 % valor2
+
+print("O mínimo divisor comum entre estes números é: ", valor2)

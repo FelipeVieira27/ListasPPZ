@@ -1,0 +1,97 @@
+Lista 2 - DSM
+Data de entrega: 14/02
+Nome: Felipe Gabriel Vieira
+
+Exercício 1:
+
+lado1 = int(input("Insira o primeiro lado do triângulo: "))
+lado2 = int(input("Insira o segundo lado do triângulo: "))
+lado3 = int(input("Insira o terceiro lado do triângulo: "))
+
+if lado1 == lado2 and lado2 == lado3 and lado1 == lado3:
+    print("Estas medidas formam um triângulo equilátero")
+elif lado1 == lado2 and lado3 < lado1 + lado2:
+    print("Estas medidas formam um triângulo isóceles")
+elif lado1 == lado3 and lado2 < lado1 + lado3:
+    print("Estas medidas formam um triângulo isóceles")
+elif lado3 == lado2 and lado1 < lado3 + lado2:
+    print("Estas medidas formam um triângulo isóceles")
+elif lado1 >= lado2 + lado3 or lado2 >= lado1 + lado3 or lado3 >= lado1 + lado2:
+    print("Estas medidas não formam um triângulo")
+else: print("Estas medidas formam um triângulo escaleno")
+
+Exercício 2:
+ ano = int(input("Insira o ano: "))
+if ano % 4 == 0 and (ano % 100 != 0 or ano % 400 == 0):
+    print ("Este ano é bissexto")
+else:
+    print ("Este ano não é bissexto")
+
+Exercício 3:
+peso = float(input("Insira o peso do peixe em Kg: "))
+if peso > 50:
+    excesso = peso - 50
+    multa = excesso * 4
+else:
+    excesso = 0
+    multa = 0
+print (f"Você deverá pagar R$:{multa:.2f} por {excesso}Kg a mais que o regulamento")
+
+Exercício 4:
+n1 = int(input("Insira o primeiro número: "))
+n2 = int(input("Insira o segundo número: "))
+n3 = int(input("Insira o terceiro número: "))
+
+if n1 > n2 and n1 > n3:
+    print("O primeiro número é o maior: ", n1)
+elif  n2 > n1 and n2 > n3:
+    print("O segundo número é o maior: ", n2)
+elif n3 > n2 and n3 > n1:
+    print("O terceiro número é o maior: ", n3)
+else:
+    print("Tente novamente com números que não sejam iguais")
+
+Exercício 5:
+n1 = int(input("Insira o primeiro número: "))
+n2 = int(input("Insira o segundo número: "))
+n3 = int(input("Insira o terceiro número: "))
+
+if n1 > n2 and n1 > n3 and n2 < n3:
+    print("O primeiro número é o maior: ", n1, "e o segundo número é o menor: ", n2)
+elif n1 > n2 and n1 > n3 and n3 < n2:
+    print("O primeiro número é o maior: ", n1, "e o terceiro número é o menor: ", n3)
+elif n2 > n1 and n2 > n3 and n1 < n3:
+    print("O segundo número é o maior: ", n2, "e o primeiro número é o menor: ", n1)
+elif  n2 > n1 and n2 > n3 and n3 < n1:
+    print("O segundo número é o maior: ", n2, "e o terceiro número é o menor: ", n3)
+elif n3 > n2 and n3 > n1 and n1 < n2:
+    print("O terceiro número é o maior: ", n3, "e o primeiro número é o menor: ", n1)
+elif n3 > n2 and n3 > n1 and n2 < n1:
+    print("O terceiro número é o maior: ", n3, "e o segundo número é o menor: ", n2)
+else:
+    print("Tente novamente com números que não sejam iguais")
+
+Exercício 6:
+salariohora = float(input("Insira o valor que você recebe por hora: "))
+horas = int(input("Insira a quantidade de horas trabalhadas por mês: "))
+bruto = salariohora * horas
+imposto = bruto * 11 / 100
+inss = bruto * 8 / 100
+sindicato = bruto * 5 / 100
+salario = bruto - imposto - inss - sindicato
+print("Seu salário bruto é de R$: ", bruto)
+print(f"R$: {imposto:.2f} foram para o imposto de renda") 
+print(f"R$: {inss:.2f} foram para o INSS")
+print(f"R$: {sindicato:.2f} foram para o sindicato")
+print(f"No final, você ficou com R$:{salario:.2f}")
+
+Exercício 7:
+metros = int(input('Metros: '))
+if m % 54 == 0:
+  latas = metros / 54
+else:
+  latas = int(metros / 54) + 1
+
+valor = latas * 80
+print (f'{latas} latas')
+print (f'Total: R$ {valor:.2f}')
