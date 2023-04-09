@@ -11,8 +11,8 @@ III | Concluída | :white_check_mark:
 IV | Concluída | :white_check_mark:
 V | Concluída | :white_check_mark:
 VI | Concluída | :white_check_mark:
-VII |  | 
-VIII |  | 
+VII | Concluída | :white_check_mark:
+VIII | Em Andamento | 
 IX |  | 
 X |  | 
 XIV |  | 
