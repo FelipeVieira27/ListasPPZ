@@ -11,8 +11,9 @@ III | Concluída | :white_check_mark:
 IV | Concluída | :white_check_mark:
 V | Concluída | :white_check_mark:
 VI | Concluída | :white_check_mark:
-VII | Concluída | :white_check_mark:
-VIII | Em Andamento | 
-IX |  | 
+VII | Concluída | :white_check_mark: 
+IX | Concluída | :white_check_mark:
 X |  | 
-XIV |  | 
+
+<p> * A lista VIII foi substituída pela prova
+<p style: align=center > Python é legal! </p>
