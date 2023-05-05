@@ -14,7 +14,8 @@ VI | Concluída | :white_check_mark: |
 VII | Concluída | :white_check_mark: |
 IX | Concluída | :white_check_mark: |
 X | Concluída | :white_check_mark: |
-XI | Em andamento | |
+XI | Concluída | :white_check_mark: |
+XII | Em Andamento |
 
 <p> * A lista VIII foi substituída pela prova </p>
-<p style="text-align: center;" > Python é legal! </p>
+<h4 style="text-align: center;" > Python é legal! </h4>
