@@ -15,7 +15,8 @@ VII | Concluída | :white_check_mark: |
 IX | Concluída | :white_check_mark: |
 X | Concluída | :white_check_mark: |
 XI | Concluída | :white_check_mark: |
-XII | Em Andamento |
+XII | Concluída | :white_check_mark: |
+XIII | Em andamento |
 
-<p> * A lista VIII foi substituída pela prova </p>
+<p> * A lista VIII foi substituída pelo EP1, em códigos feitos em aula </p>
 <h4 style="text-align: center;" > Python é legal! </h4>
