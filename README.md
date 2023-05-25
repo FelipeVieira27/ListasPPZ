@@ -1,7 +1,7 @@
-<h2 style="text-align: center;"> Algorítimo e Lógica de Programação - 2023.1 :computer:</h2>
-<h3 style="text-align: center;"> Repositório para armazenar códigos produzidos na disciplina do Professor Masanori</h3>
-<h4 style="text-align: center;"> Linguagem utilizada: </h4>
-<p style="text-align: center;"> <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"></img> </p>
+<h2 align=center> Algorítimo e Lógica de Programação - 2023.1 :computer:</h2>
+<h3 align=center> Repositório para armazenar códigos produzidos na disciplina do Professor Fernando Masanori</h3>
+<h4 align=center> Linguagem utilizada: </h4>
+<p align=center> <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"></img> </p>
 
 Lista | Status | Entregue
 |:---:|:-------:|:-------:|
@@ -16,7 +16,9 @@ IX | Concluída | :white_check_mark: |
 X | Concluída | :white_check_mark: |
 XI | Concluída | :white_check_mark: |
 XII | Concluída | :white_check_mark: |
-XIII | Em andamento |
+XIII | Concluída | :white_check_mark: |
+XIV PPZ | Concluída | :white_check_mark: |
+XIV GPC | Em Andamento | :hourglass: |
 
-<p> * A lista VIII foi substituída pelo EP1, em códigos feitos em aula </p>
-<h4 style="text-align: center;" > Python é legal! </h4>
+<p> * A lista VIII foi substituída pelo EP1, disponível em Códigos em aula </p>
+<h4 align=center> Python é legal! </h4>
