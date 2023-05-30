@@ -18,7 +18,7 @@ XI | Concluída | :white_check_mark: |
 XII | Concluída | :white_check_mark: |
 XIII | Concluída | :white_check_mark: |
 XIV PPZ | Concluída | :white_check_mark: |
-XIV GPC | Em Andamento | :hourglass: |
+XIV GPC | Em Andamento | :white_check_mark: |
 
 <p> * A lista VIII foi substituída pelo EP1, disponível em Códigos em aula </p>
 <h4 align=center> Python é legal! </h4>
